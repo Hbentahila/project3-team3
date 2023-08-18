@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>Interactive Dashboard</title>
+</head>
+
+<body>
+<h1>Interactive Dashboard</h1>
+<div id="chart"></div>
+
+<script>
+    
+async function fetchData() {
+const response = await fetch('/data');
+const data = await response.json();
+return data;
+}
+
+async function retrieve() {
+const data = await fetchData();
+const roomtype = data.map(entry => entry[1]);
+const reviews = data.map(entry => entry[5]);
+console.log(data);
+console.log(roomtype);
+console.log(reviews);
+}
+
+retrieve()
+
+</script>
+</body>
+</html>
