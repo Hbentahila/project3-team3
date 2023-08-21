@@ -18,7 +18,7 @@ Doubting about the authenticity of the data, especially the data about the listi
 * This project used Python Jupyter Notebook to clean the download data.
 ### Load
 * Python Flask powered API to deploy the data into web
-<img src="/imag2/dropdown_menu.png" />
+<img src="/image/dropdown_menu.png" />
 
 ## Library 
 * Leafet
@@ -44,7 +44,7 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 <img src="/image/plotly_bar_chart.png" />
 
 ### Listing Average Cost
-<img src="/image/highcharts.png" />
+<img src="/image/highcharts.png"  />
 
 ## Team Members
 * Hicham Benrahila
