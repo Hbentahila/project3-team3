@@ -18,7 +18,7 @@ Doubting about the authenticity of the data, especially the data about the listi
 * This project used Python Jupyter Notebook to clean the download data.
 ### Load
 * Python Flask powered API to deploy the data into web
-<img src="/img/dropdown_menu.png" height="500" width="900" />
+<img src="/imag2/dropdown_menu.png" />
 
 ## Library 
 * Leafet
@@ -35,16 +35,16 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 * Analyzed the average price for the listing by neighourhood group.
 
 ### New York City Mapping
-<img src="/image/.png" height="500" width="900" />
+<img src="/image/.png" />
 
 ### Listing Room Type 
-<img src="image/plotly_pie_chart.png" height="500" width="900" />
+<img src="/image/plotly_pie_chart.png" />
 
 ### Listing Availbility 
-<img src="image/plotly_bar_chart.png" height="500" width="900" />
+<img src="/image/plotly_bar_chart.png" />
 
 ### Listing Average Cost
-<img src="image/highcharts.png" height="500" width="900" />
+<img src="/image/highcharts.png" />
 
 ## Team Members
 * Hicham Benrahila
