@@ -1,24 +1,50 @@
-## Team3 - Airbnb in New York City
-
+# Airbnb in New York City
 
 ## Research Question
 
 
 ## Data Source
-
+Inside Airbnb (http://insideairbnb.com/get-the-data/)
 
 ## Data Limitation
+The last updated date for our data source is June 05, 2025.<br>
+We have limited reouces to verify the data source.<br> 
+Doubting about the authenticity of the data, especially the data about the listing price. <br>
 
+## Data ETL Process
+### Extrct
+* Downloaded the listings csv file from the source.
+### Trandform
+* This project used Python Jupyter Notebook to clean the download data.
+### Load
+* Python Flask powered API to deploy the data into web
+<img src="/img/dropdown_menu.png" height="500" width="900" />
 
-## Deployment
+## Library 
+* Leafet
+* Plotly
+* Highcharts
 
+## Visualization and Analysis
+### Objectives
+* Mapping the Airbnb with review scores
+* Find the most popular porperty listing type in New York Ciity.
+* Availbility Anlysis with different neighourhood groups:<br>
+Assuing the hot spot is the listing's availibies that are shorter than 20 days.<br>
+And the cold spot is the listing's avalibilies that are longer than 300 days.<br>
+* Analyzed the average price for the listing by neighourhood group.
 
-## Project Analysis
+### New York City Mapping
+<img src="/img/.png" height="500" width="900" />
 
+### Listing Room Type 
+<img src="/img/plotly_pie_chart.png" height="500" width="900" />
 
-## Visualization
+### Listing Availbility 
+<img src="/img/plotly_bar_chart.png" height="500" width="900" />
 
-
+### Listing Average Cost
+<img src="/img/highcharts.png" height="500" width="900" />
 
 ## Team Members
 * Hicham Benrahila
