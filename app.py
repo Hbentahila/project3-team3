@@ -35,8 +35,7 @@ def get_metadata_map():
     conn = sqlite3.connect('data.db')
     cursor = conn.cursor()
     cursor.execute("SELECT rating, room_type, number_of_reviews, neighbourhood_group, neighbourhood, latitude, longitude \
-                   FROM listings\
-                   WHERE rating != 0")
+                   FROM listings")
     data = cursor.fetchall()
     conn.close()
     return jsonify(data)
@@ -79,6 +78,27 @@ def get_count_hood_availability_300():
                    GROUP BY neighbourhood_group")
     data = cursor.fetchall()
     conn.close()
+    return jsonify(data)
+
+# Route "/data/count_hood_availability" retunring count of listings by neighbourhood 
+# where the availability in the next 12 months is less than 20 days and more than 300 days
+@app.route('/data/count_hood_availability_20_300')
+def get_count_hood_availability_20_300():
+    conn = sqlite3.connect('data.db')
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT neighbourhood_group, \
+                   COUNT(CASE WHEN availability < 20 THEN availability END) AS availability_below_20, \
+                   COUNT(CASE WHEN availability > 300 THEN availability END) AS availability_above_300 \
+                   FROM listings \
+                   GROUP BY neighbourhood_group")
+    
+    data = cursor.fetchall()
+
+    print(data)
+
+    conn.close()
+
     return jsonify(data)
 
 # Route "/data/avg_price" retunring the average price by room_type and neighbourhood_group
