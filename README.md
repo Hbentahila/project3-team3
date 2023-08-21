@@ -11,9 +11,9 @@ The last updated date for our data source is June 05, 2025.<br>
 We have limited reouces to verify the data source.<br> 
 
 ## Data ETL Process
-### Extrct
+### Extract
 * Downloaded the listings csv file from the source.
-### Trandform
+### Transform
 * This project used Python Jupyter Notebook to clean the data create our SQLite database.
 ### Load
 * Python Flask powered API to deploy the database, and used to fetch the necessary data from the database and render template.
