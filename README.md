@@ -44,7 +44,7 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 <img src="/image/plotly_bar_chart.png" />
 
 ### Listing Average Cost
-<img src="/image/highcharts.PNG"  />
+<img src="/image/highcharts.png"  />
 
 ## Team Members
 * Hicham Benrahila
