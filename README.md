@@ -9,7 +9,6 @@ Inside Airbnb (http://insideairbnb.com/get-the-data/)
 ## Data Limitation
 The last updated date for our data source is June 05, 2025.<br>
 We have limited reouces to verify the data source.<br> 
-Doubting about the authenticity of the data, especially the data about the listing price. <br>
 
 ## Data ETL Process
 ### Extrct
