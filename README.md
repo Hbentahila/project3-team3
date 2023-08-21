@@ -35,7 +35,7 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 * Analyzed the average price for the listing by neighourhood group.
 
 ### New York City Mapping
-<img src="image/.png" height="500" width="900" />
+<img src="/image/.png" height="500" width="900" />
 
 ### Listing Room Type 
 <img src="image/plotly_pie_chart.png" height="500" width="900" />
