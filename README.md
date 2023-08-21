@@ -15,9 +15,9 @@ Doubting about the authenticity of the data, especially the data about the listi
 ### Extrct
 * Downloaded the listings csv file from the source.
 ### Trandform
-* This project used Python Jupyter Notebook to clean the download data.
+* This project used Python Jupyter Notebook to clean the data create our SQLite database.
 ### Load
-* Python Flask powered API to deploy the data into web
+* Python Flask powered API to deploy the database, and used to fetch the necessary data from the database and render template.
 <img src="/image/dropdown_menu.png" />
 
 ## Library 
