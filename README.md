@@ -39,7 +39,7 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 ### Listing Room Type 
 <img src="/image/plotly_pie_chart.png" />
 
-### Listing Availbility 
+### Listing Availability 
 <img src="/image/plotly_bar_chart.png" />
 
 ### Listing Average Cost
