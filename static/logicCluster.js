@@ -25,7 +25,7 @@ function createMarkers(data, map) {
     const lng = listing[6];
 
     const marker = L.marker([lat, lng])
-      .bindPopup(`<strong>${borough}</strong><br>Neighbourhood: ${neighbourhood}<br>Rating: ${rating}<br>Number of Reviews: ${numReviews}`)
+      .bindPopup(`<strong>${roomType}</strong><br>Neighbourhood: ${borough}<br>Rating: ${rating}<br>Number of Reviews: ${numReviews}`)
       .addTo(markers);
   });
 
