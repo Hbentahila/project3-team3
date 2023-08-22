@@ -1,13 +1,15 @@
 # Airbnb in New York City
 
 ## Research Question
-
+* How owners choose to listing room type?
+* Will cost be the main factor to determine the hot spot in the city?
+* Which neighbourhood is the most popular one in New York City?
 
 ## Data Source
 Inside Airbnb (http://insideairbnb.com/get-the-data/)
 
 ## Data Limitation
-The last updated date for our data source is June 05, 2025.<br>
+The last updated date for our data source is June 05, 2023.<br>
 We have limited reouces to verify the data source.<br> 
 
 ## Data ETL Process
@@ -20,6 +22,7 @@ We have limited reouces to verify the data source.<br>
 <img src="/image/dropdown_menu.png" />
 
 ## Library 
+* D3
 * Leafet
 * Plotly
 * Highcharts
@@ -34,7 +37,7 @@ And the cold spot is the listing's avalibilies that are longer than 300 days.<br
 * Analyzed the average price for the listing by neighourhood group.
 
 ### New York City Mapping
-<img src="/image/.png" />
+<img src="/image/map.png" />
 
 ### Listing Room Type 
 <img src="/image/plotly_pie_chart.png" />
