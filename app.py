@@ -34,7 +34,7 @@ def get_data():
 def get_metadata_map():
     conn = sqlite3.connect('data.db')
     cursor = conn.cursor()
-    cursor.execute("SELECT rating, room_type, number_of_reviews, neighbourhood_group, neighbourhood, latitude, longitude \
+    cursor.execute("SELECT rating, room_type, number_of_reviews, neighbourhood_group, neighbourhood, latitude, longitude, price_per_night \
                    FROM listings")
     data = cursor.fetchall()
     conn.close()

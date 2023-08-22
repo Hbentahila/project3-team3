@@ -27,6 +27,9 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
 
+    <!-- Leaflet heatmap plugin-->
+    <script type="text/javascript" src="/static/leaflet-heat.js"></script>
+
     <!-- Our CSS  -->
     <link rel="stylesheet" type="text/css" href="/static/mystyle.css" />
 
@@ -86,11 +89,17 @@
     <div id="container"></div>
     <script src="{{url_for('static', filename='new_library.js')}}"></script>
 
+    
+    <h1>Listing Density Map</h1>
+    <div id ="map2"></div>
+    <!-- JavaScript file -->
+    <script type="text/javascript" src="/static/heatMap.js"></script>
+
     <h1>Listings Location Map</h1>
     <div id="map"></div>
     <!--JavaScript file -->
     <script type="text/javascript" src="/static/logicCluster.js"></script>
-        
+
 </body>
 
 </html>
