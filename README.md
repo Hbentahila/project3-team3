@@ -36,7 +36,10 @@ Assuing the hot spot is the listing's availibies that are shorter than 20 days.<
 And the cold spot is the listing's avalibilies that are longer than 300 days.<br>
 * Analyzed the average price for the listing by neighourhood group.
 
-### New York City Mapping
+### Heat Mapping
+<img src="/image/heatmap.png" />
+
+### Listings Mapping
 <img src="/image/map.png" />
 
 ### Listing Room Type 
