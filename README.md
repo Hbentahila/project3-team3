@@ -1,9 +1,9 @@
 # Airbnb in New York City
 
 ## Research Question
-* How owners choose to listing room type?
-* Will cost be the main factor to determine the hot spot in the city?
-* Which neighbourhood is the most popular one in New York City?
+* How owners choose to list their properties?
+* How to determine the hot spot in the city? 
+
 
 ## Data Source
 Inside Airbnb (http://insideairbnb.com/get-the-data/)
