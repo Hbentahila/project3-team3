@@ -17,7 +17,7 @@ app = Flask(__name__)
 # Use the fucntion render_template to return the html page "index.html" when running the app
 @app.route("/")
 def index():
-    return render_template('index_test.html')
+    return render_template('airbnb_nyc.html')
 
 # Route "/data" returning all data
 @app.route('/data')
